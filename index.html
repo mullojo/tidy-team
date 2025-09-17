@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Tidy Team</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- daisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script type="module">
+    import {
+      loadIcon
+    } from "https://esm.sh/iconify-icon@3/dist/iconify-icon.min.js";
+  </script>
+</head>
+
+<body class="bg-lime-300 text-white antialiased">
+
+  <main class="relative min-h-screen overflow-hidden px-6">
+
+    <!-- Hero Section -->
+    <section class="relative z-10 px-6 max-w-3xl mx-auto text-center pt-28 bg-white text-indigo-600 rounded-b-3xl shadow-xl">
+      <iconify-icon class="rounded-full border-4 p-6 drop-shadow-lg mb-3 text-indigo-600" icon="bi:house-heart-fill" width="96" height="96"></iconify-icon>
+
+      <h1 class="text-5xl md:text-6xl font-extrabold drop-shadow-lg">
+        Your Tidy Team
+      </h1>
+
+      <p class="mt-4 text-lg max-w-xl mx-auto font-medium p-3">
+        ✨ Bringing Calm to Your Spaces, One Room at a Time ✨
+      </p>
+
+      <p class="mt-3 text-indigo-600 max-w-lg mx-auto">
+        Your Tidy Team helps transform clutter into clarity with simple, sustainable systems that bring peace to your home or office.
+      </p>
+
+      <div class="mt-10 flex flex-wrap justify-center gap-4 pb-10">
+        <a href="#contact" class="px-6 py-3 rounded-full bg-lime-300 text-indigo-700 font-semibold shadow hover:bg-lime-200 transition">
+          Book a Consultation
+        </a>
+        <a href="#learn" class="px-6 py-3 rounded-full border border-indigo-600 text-indigo-600 font-semibold hover:bg-indigo-50 transition">
+          Learn More
+        </a>
+      </div>
+    </section>
+
+    <!-- About / Philosophy -->
+    <section id="about" class="max-w-3xl mx-auto mt-12 px-6 py-12 bg-white rounded-3xl shadow-lg">
+      <h2 class="text-3xl font-bold mb-6 text-indigo-600 text-center drop-shadow-lg">Our Philosophy</h2>
+
+      <p class="text-indigo-600 leading-relaxed mb-4 text-left">
+        Organization is more than neat shelves—it’s about creating a space that supports your life. You want to feel good when you open a closet or drawer, not aggravated. It should be something you want to show off to friends!
+      </p>
+
+      <p class="text-indigo-600 leading-relaxed mb-4 text-left">
+        Life feels lighter when your spaces are organized. We transform clutter into clarity—whether it’s a single closet, a full home, a garage, or an office. Move-in/move-out support makes transitions stress-free.
+      </p>
+
+      <p class="text-indigo-600 leading-relaxed mb-4 text-left">
+        We follow the <strong>C.A.R.E</strong> concept:
+      </p>
+
+      <ul class="mt-4 space-y-2 text-indigo-600 text-left max-w-md mx-auto">
+        <li>💚 Compassion and Concern</li>
+        <li>👂 Active Listening and Attention</li>
+        <li>🤝 Responsibility and Respect</li>
+        <li>🌱 Empathy and Encouragement</li>
+      </ul>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="max-w-3xl mx-auto mt-12">
+      <h2 class="text-3xl font-bold mb-8 text-white drop-shadow-lg text-center">
+        Tidy Snaps 📸
+      </h2>
+
+      <div class="carousel carousel-center bg-white rounded-2xl shadow-lg max-w-3xl space-x-2 drop-shadow-lg p-2">
+        <div class="carousel-item">
+          <img src="https://pub-799f7bc4480e46d5bf51840474bf7552.r2.dev/dresser-1.jpg" class="rounded-xl border-3 border-white h-[50vh] object-cover" alt="Dresser 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pub-799f7bc4480e46d5bf51840474bf7552.r2.dev/dresser-2.jpg" class="rounded-xl border-3 border-white h-[50vh] object-cover" alt="Dresser 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pub-799f7bc4480e46d5bf51840474bf7552.r2.dev/closet-1.jpg" class="rounded-xl border-3 border-white h-[50vh] object-cover" alt="Closet 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pub-799f7bc4480e46d5bf51840474bf7552.r2.dev/closet-2.jpg" class="rounded-xl border-3 border-white h-[50vh] object-cover" alt="Closet 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pub-799f7bc4480e46d5bf51840474bf7552.r2.dev/closet-clean.jpg" class="rounded-xl border-3 border-white h-[50vh] object-cover" alt="Closet Clean">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pub-799f7bc4480e46d5bf51840474bf7552.r2.dev/twin-beds-clean.jpg" class="rounded-xl border-3 border-white h-[50vh] object-cover" alt="Twin Beds Clean">
+        </div>
+      </div>
+    </section>
+
+    <!-- Services & Pricing -->
+    <section id="learn" class="max-w-3xl mx-auto mt-12  text-center">
+      <h2 class="text-3xl font-bold mb-8 text-white drop-shadow-lg">Services & Pricing</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+        <div class="bg-white rounded-2xl p-6 shadow-md text-indigo-600 hover:shadow-xl hover:scale-105 transition transform">
+          <h3 class="text-lg font-semibold mb-2">👚👖 Bedroom Closet & Dresser Clean Out</h3>
+          <p class="text-md font-bold text-lime-500">3 hours – $225</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-md text-indigo-600 hover:shadow-xl hover:scale-105 transition transform">
+          <h3 class="text-lg font-semibold mb-2">🛌✨ Bedroom Organization</h3>
+          <p class="text-md font-semibold text-lime-500">5 hours – $375</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-md text-indigo-600 hover:shadow-xl hover:scale-105 transition transform">
+          <h3 class="text-lg font-semibold mb-2">🥫🥑 Pantry & Refrigerator/Freezer Clean Out</h3>
+          <p class="text-md font-semibold text-lime-500">3 hours – $225</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-md text-indigo-600 hover:shadow-xl hover:scale-105 transition transform">
+          <h3 class="text-lg font-semibold mb-2">🛠️🏡 Garage Reorganize & Cleanse</h3>
+          <p class="text-md font-semibold text-lime-500">6 hours – $450</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-md text-indigo-600 hover:shadow-xl hover:scale-105 transition transform col-span-1 md:col-span-2">
+          <h3 class="text-lg font-semibold mb-2">🎨🔧 Custom Projects</h3>
+          <p class="text-md font-semibold text-lime-500">$75/hour - ask about discounts on larger projects</p>
+        </div>
+      </div>
+
+      <div class="mt-8 px-3 text-left max-w-3xl mx-auto space-y-6">
+        <!-- Home Organization -->
+        <div>
+          <h3 class="text-lime-700 font-semibold text-lg mb-3">
+            Home Organization:
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Closets</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Kitchen / Pantry</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Bedroom</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Bathroom</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Home / Work Office</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Living Room</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Playroom</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Basement</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Storage Unit</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Garage</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Paper Management</span>
+          </div>
+        </div>
+
+        <!-- Packing & Unpacking -->
+        <div>
+          <h3 class="text-lime-700 font-semibold text-lg mb-3">
+            Packing &amp; Unpacking:
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Pre-Move Preparation &amp; Packing</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Post-Move Unpacking &amp; Organization</span>
+            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Home &amp; Vacation Rental Staging</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-3xl mx-auto mt-12 px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6 text-white drop-shadow-lg">Get in Touch</h2>
+      <p class="text-lime-600 mb-4">Have a project in mind? Reach out to us!</p>
+      <div class="flex flex-col md:flex-row justify-center gap-4">
+        <a href="mailto:Jill@yourtidyteam.com" class="px-6 py-3 rounded-full bg-white text-indigo-600 font-semibold shadow hover:bg-lime-50 transition">
+          📧 Email: Jill@yourtidyteam.com
+        </a>
+        <a href="tel:3107458311" class="px-6 py-3 rounded-full bg-white text-indigo-600 font-semibold shadow hover:bg-lime-50 transition">
+          📱 Call / Text: (310) 745-8311
+        </a>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="pt-12">
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 drop-shadow-lg">Happy People</h2>
+
+        <div class="space-y-4">
+
+          <!-- Pearl -->
+          <div class="collapse collapse-plus bg-white border border-base-300 rounded-box shadow">
+            <input type="radio" name="testimonials" checked="checked" />
+            <div class="collapse-title flex flex-col text-indigo-600">
+              <span class="font-bold text-lg">Pearl H.</span>
+              <span class="italic mt-1">
+                "Jill seriously worked her magic and reset my whole approach to organizing."
+              </span>
+            </div>
+            <div class="collapse-content text-indigo-600 mt-2">
+              <p>
+                A few months after giving birth, I was drowning in clutter. Enter Jill, who basically
+                showed up as a beautiful fairy godmother. She didn’t just organize, she transformed my
+                entire experience. She made it fun, patient, and calm, and by the end it felt like my
+                mind had been cleared too. Jill seriously worked her magic and reset my whole approach
+                to organizing. I cannot recommend her enough!
+              </p>
+            </div>
+          </div>
+
+          <!-- Mona -->
+          <div class="collapse collapse-plus bg-white border border-base-300 rounded-box shadow">
+            <input type="radio" name="testimonials" />
+            <div class="collapse-title flex flex-col text-indigo-600">
+              <span class="font-bold text-lg">Mona D.</span>
+              <span class="italic mt-1">
+                "She brought fresh ideas, an eye for detail, and a practical approach that made everything both functional and stylish."
+              </span>
+            </div>
+            <div class="collapse-content text-indigo-600 mt-2">
+              <p>
+                I had the pleasure of working with Jill to help with a big move into my townhome. She
+                helped organize my closet, decorate my space, and set up my living room—and I couldn’t
+                be happier with the results. She brought fresh ideas, an eye for detail, and a practical
+                approach that made everything both functional and stylish. I highly recommend Jill to
+                anyone looking for organized and beautiful spaces!
+              </p>
+            </div>
+          </div>
+
+          <!-- Madeleine -->
+          <div class="collapse collapse-plus bg-white border border-base-300 rounded-box shadow">
+            <input type="radio" name="testimonials" />
+            <div class="collapse-title flex flex-col text-indigo-600">
+              <span class="font-bold text-lg">Madeleine C.</span>
+              <span class="italic mt-1">
+                "She transformed cluttered areas into spaces that are now efficient, tidy, and easy to maintain."
+              </span>
+            </div>
+            <div class="collapse-content text-indigo-600 mt-2">
+              <p>
+                Having Jill organize several rooms in my home was an absolute pleasure! She transformed
+                cluttered areas into spaces that are now efficient, tidy, and easy to maintain. Her
+                creative ideas made everything more functional than I imagined, and with her guidance I
+                was able to let go of so many unnecessary items. Jill is hardworking, reliable, and
+                highly professional—I wouldn’t hesitate to hire her again!
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative z-10 mt-24 mb-6 text-lime-600 text-sm text-center">
+      © 2025 Your Tidy Team — All rights reserved
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
